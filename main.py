@@ -32,6 +32,7 @@ class Window(QWidget):
         qp.setBrush(QColor(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
         qp.drawEllipse(x, y, size, size)
 
+        
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     wd = Window()
